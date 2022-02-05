@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+@supports (mix-blend-mode: overlay) {
+  .example {
+    mix-blend-mode: overlay;
+  }
+}
+body {
+  background-image: url(../images/food.png);
+  margin: 0px;
+  font-family: "Poppins", sans-serif, Arial, Helvetica;
+  font-weight: 300;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px rgb(255, 238, 0), 2px 2px 1px rgb(246, 250, 5);
+  font-size: 50px;
+  font-family: "Poppins", sans-serif, Arial, Helvetica;
+}
+
+#SWIMMING {
+  width: 200px;
+  border: 20px lightskyblue;
+  padding: 40px;
+  margin: 15px;
+  background-color: lightskyblue;
+}
+
+#DRAWING {
+  width: 200px;
+  border: 20px lightskyblue;
+  padding: 40px;
+  margin: 15px;
+  background-color: lightskyblue;
+}
+
+#VIDEO-GAMES {
+  width: 200px;
+  border: 20px lightskyblue;
+  padding: 40px;
+  margin: 15px;
+  background-color: lightskyblue;
+}
+
+#swimming {
+  width: 200px;
+  border: 20px lightpink;
+  background-color: lightpink;
+  margin: 15px;
+  font-family: "Brush Script MT", cursive;
+  font-size: 30px;
+  padding: 30px;
+}
+
+#drawing {
+  width: 200px;
+  border: 20px lightpink;
+  background-color: lightpink;
+  margin: 15px;
+  font-family: "Brush Script MT", cursive;
+  font-size: 30px;
+  padding: 30px;
+}
+
+#video-games {
+  width: 200px;
+  border: 20px lightpink;
+  background-color: lightpink;
+  margin: 15px;
+  font-family: "Brush Script MT", cursive;
+  font-size: 30px;
+  padding: 30px;
+}
+
+#Home {
+  text-decoration: none;
+}
+
+
+
+#momo {
+  width: 200px;
+  border: 20px lightskyblue;
+  padding: 40px;
+  margin: 15px;
+  background-color: rgba(230, 226, 17, 0.959);
+}
+
+#soup {
+  width: 200px;
+  border: 20px lightskyblue;
+  padding: 40px;
+  margin: 15px;
+  background-color: rgba(230, 226, 17, 0.959);
+}
+
+#taco {
+  width: 200px;
+  border: 20px lightskyblue;
+  padding: 40px;
+  margin: 15px;
+  background-color: rgba(230, 226, 17, 0.959);
+}
+
+#MOMO {
+  width: 200px;
+  border: 20px rgb(236, 233, 60);
+  background-color: rgb(231, 98, 98);
+  margin: 15px;
+  font-family: "Brush Script MT", cursive;
+  font-size: 30px;
+  padding: 10px;
+}
+
+#SOUP {
+  width: 200px;
+  border: 20px rgb(236, 233, 60);
+  background-color: rgb(231, 98, 98);
+  margin: 15px;
+  font-family: "Brush Script MT", cursive;
+  font-size: 29px;
+  padding: 10px;
+}
+
+#TACO {
+  width: 200px;
+  border: 20px rgb(236, 233, 60);
+  background-color: rgb(231, 98, 98);
+  margin: 15px;
+  font-family: "Brush Script MT", cursive;
+  font-size: 29px;
+  padding: 10px;
+}
+
+
+.foods {
+  text-decoration: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.body-text {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: teal;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links li {
+  list-style: none;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.songs {
+  color: rgb(17, 16, 16);
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 30px;
+  float: left;
+  text-decoration: none;
+  list-style: none;
+}
+
+a:hover {
+  color: red;
+}
+
+
+.link {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-display: auto;
+}
+
+.home-page {
+  text-align: center;
+}
+
+nav a {
+  color: turquoise;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+}
+
+nav a:hover {
+  color: black;
+}
+
+.me {
+  text-align: left;
+  border: 5px solid black;
+}
+
+.list-problems {
+  list-style: none;
+  display: inline-table;
+  margin: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#pic {
+  margin-left: 550px;
+}
+
+.nayhay {
+  border-radius: 500%;
+  width: 400px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.About {
+  background: url(images/b02ae2523a2c395bab1d7828492338bd.jpg);
+  background-position: 0 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.aboutt {
+  color: #398f51;
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 2rem;
+}
+
+.abouttt {
+  color: #000;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.image {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  width: 400px;
+}
+
+.aboutttt {
+  font-size: 2rem;
+  color: #000;
+  line-height: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 2.7rem 7.5rem;
+  background: #ecf006;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 10px;
+  transition: background 0.5s;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background: #000000;
+}
+
+.indexel {
+  background-image: url(images/b02ae2523a2c395bab1d7828492338bd.jpg);
+}
+
+
+
+#contact-info {
+  display: inline-block;
+  padding: 2.7rem 7.5rem;
+  background: #e7e304;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #080808;
+  border-radius: 10px;
+  transition: background 0.5s;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 680px;
+}
+
+#contact-info:hover {
+  background: #000000;
+}
