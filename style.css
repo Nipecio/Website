@@ -22,7 +22,9 @@ h1 {
   -webkit-text-fill-color: transparent; 
 }
 
-
+h1:hover {
+  transition: purple 1s;
+}
 
 #SWIMMING {
   width: 200px;
@@ -293,7 +295,7 @@ a {
 }
 
 .btn:hover {
-  background: #000000;
+  background: gray;
 }
 
 .indexele {
@@ -339,7 +341,7 @@ a {
 }
 
 .contact-info:hover {
-  background: #000000;
+  background: gray;
 }
 
 #heart {
